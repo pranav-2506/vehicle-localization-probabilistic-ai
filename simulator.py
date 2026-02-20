@@ -5,12 +5,6 @@ from particle_filter import ParticleFilter
 from kalman_filter import KalmanFilter
 from utils import angle_bw
 from racetrack import load_racetrack
-try:
-    from particle_filter_extra import ParticleFilterExtra
-    EXTRA_CREDIT_AVAILABLE = True
-except ImportError:
-    EXTRA_CREDIT_AVAILABLE = False
-    print("Note: Extra credit modules not fully implemented yet")
 
 WORLD_WIDTH = 1400
 WORLD_HEIGHT = 800
